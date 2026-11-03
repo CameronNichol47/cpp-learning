@@ -173,28 +173,7 @@ int main() {
 
 
     // ============================================================
-    // 13. IF / ELSE IF / ELSE
-    // ============================================================
-
-    if (stock_price > strike_price) {
-
-        std::cout << "Stock price is above strike.\n";
-
-    }
-    else if (stock_price == strike_price) {
-
-        std::cout << "Stock price equals strike.\n";
-
-    }
-    else {
-
-        std::cout << "Stock price is below strike.\n";
-
-    }
-
-
-    // ============================================================
-    // 14. SCOPE
+    // 13. SCOPE
     // ============================================================
 
     if (stock_price > 200) {
@@ -217,7 +196,7 @@ int main() {
 
 
     // ============================================================
-    // 15. USER INPUT
+    // 14. USER INPUT
     // ============================================================
 
     double user_stock_price;
